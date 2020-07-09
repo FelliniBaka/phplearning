@@ -6,7 +6,7 @@ spl_autoload_register(function (string $className)
 });
 
 $route = $_GET['route'];
-$routes = require __DIR__.'src'.DIRECTORY_SEPARATOR.'routes.php';
+$routes = require __DIR__.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'routes.php';
 
 foreach ($routes as $pattern => $controllerAndAction) {
     preg_match($pattern, $route, $matches);
