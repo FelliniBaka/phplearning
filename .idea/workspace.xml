@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f2b25e-f965-445a-aba4-efa67720b4ad" name="Default Changelist" comment="Changes all dir separators to DIRECTORY_SEPARATOR">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/PhpLearning/Controllers/ArticlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/PhpLearning/Controllers/ArticlesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/PhpLearning/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/PhpLearning/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/PhpLearning/Controllers/SupportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/PhpLearning/Controllers/SupportController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/PhpLearning/Services/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/PhpLearning/Services/Db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/src/PhpLearning/View/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/src/PhpLearning/View/View.php" afterDir="false" />
-    </list>
+    <list default="true" id="47f2b25e-f965-445a-aba4-efa67720b4ad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -85,12 +75,12 @@
         <option value="$PROJECT_DIR$/www/templates/articles/view.php" />
         <option value="$PROJECT_DIR$/www/templates/main/main.php" />
         <option value="$PROJECT_DIR$/www/src/routes.php" />
-        <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/www/src/PhpLearning/View/View.php" />
         <option value="$PROJECT_DIR$/www/src/PhpLearning/Services/Db.php" />
         <option value="$PROJECT_DIR$/www/src/PhpLearning/Controllers/MainController.php" />
         <option value="$PROJECT_DIR$/www/src/PhpLearning/Controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/www/src/PhpLearning/Controllers/SupportController.php" />
+        <option value="$PROJECT_DIR$/www/index.php" />
       </list>
     </option>
   </component>
@@ -129,13 +119,6 @@
               <item name="phplearning" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PhpLearning" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,12 +216,27 @@
       <workItem from="1594142907430" duration="347000" />
       <workItem from="1594196922449" duration="37000" />
       <workItem from="1594217923060" duration="1598000" />
-      <workItem from="1594276745000" duration="1196000" />
+      <workItem from="1594276745000" duration="1493000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes all dir separators to DIRECTORY_SEPARATOR">
+      <created>1594278504061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594278504061</updated>
+    </task>
+    <task id="LOCAL-00002" summary="index fixed">
+      <created>1594278685693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594278685693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82285000" />
+    <option name="totallyTimeSpent" value="82582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,8 +266,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32970026" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32833788" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.32970026" />
-      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.32970026" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32970026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,7 +280,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes all dir separators to DIRECTORY_SEPARATOR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes all dir separators to DIRECTORY_SEPARATOR" />
+    <MESSAGE value="index fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="index fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/www/calc/calc_logic.php" />
@@ -450,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
