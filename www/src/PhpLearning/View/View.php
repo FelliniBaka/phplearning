@@ -16,7 +16,7 @@ class View
         extract($vars);
 
         ob_start();
-        include $this->templatesPath.'/'.$templateName;
+        include $this->templatesPath.DIRECTORY_SEPARATOR.$templateName;
         $buffer = ob_get_contents();
         ob_end_clean();
 

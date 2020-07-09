@@ -14,7 +14,7 @@ class ArticlesController
 
     public function __construct()
     {
-        $this->view = new View(__DIR__ . '/../../../templates');
+        $this->view = new View(__DIR__ .DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'templates');
     }
 
     public function view(int $articleId)
@@ -22,11 +22,11 @@ class ArticlesController
         $article = Article::getById($articleId);
 
         if ($article === null){
-            $this->view->renderHtml('errors/error404.php',[],404);
+            $this->view->renderHtml('errors'.DIRECTORY_SEPARATOR.'error404.php',[],404);
             return;
         }
 
-        $this->view->renderHtml('articles/view.php', [
+        $this->view->renderHtml('articles'.DIRECTORY_SEPARATOR.'view.php', [
                 'article' => $article
             ]);
     }
