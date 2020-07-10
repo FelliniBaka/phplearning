@@ -2,11 +2,11 @@
 
 spl_autoload_register(function (string $className)
 {
-    require_once __DIR__.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.str_replace('\\','/',$className).'.php' ;
+    require_once __DIR__ . DIRECTORY_SEPARATOR .'..'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.str_replace('\\','/',$className).'.php' ;
 });
 
 $route = $_GET['route'];
-$routes = require __DIR__.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'routes.php';
+$routes = require __DIR__ . DIRECTORY_SEPARATOR .'..'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'routes.php';
 
 foreach ($routes as $pattern => $controllerAndAction) {
     preg_match($pattern, $route, $matches);

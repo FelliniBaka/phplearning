@@ -14,7 +14,7 @@ class ArticlesController
 
     public function __construct()
     {
-        $this->view = new View(__DIR__ .DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'templates');
+        $this->view = new View(__DIR__ . DIRECTORY_SEPARATOR);
     }
 
     public function view(int $articleId)
