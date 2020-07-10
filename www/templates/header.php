@@ -6,11 +6,6 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-    <table class="layout">
-        <tr>
-            <td colspan="2" class="header">
-                Some news
-            </td>
-        </tr>
-        <tr>
-            <td>
+    <header class="header">
+        <h1 class="header-text">Some news</h1>
+    </header>
