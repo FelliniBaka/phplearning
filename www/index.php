@@ -2,7 +2,7 @@
 
 spl_autoload_register(function (string $className)
 {
-    require_once __DIR__.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.$className.'.php' ;
+    require_once __DIR__.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.str_replace('\\','/',$className).'.php' ;
 });
 
 $route = $_GET['route'];
@@ -14,7 +14,7 @@ foreach ($routes as $pattern => $controllerAndAction) {
         unset ($matches[0]);
         $isRouteFound = true;
         break;
-        }
+    }
 }
 
 if (!$isRouteFound) {
