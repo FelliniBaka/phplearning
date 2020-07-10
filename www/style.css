@@ -6,6 +6,7 @@ body, h1, h2, h3, h4, p, a {
 
 body {
     background-color: #dbdbdb;
+    height: 100vh;
 }
 
 .header {
@@ -34,15 +35,16 @@ body {
 }
 
 .article {
+    padding: 20px 20px;
     box-sizing: border-box;
-    display: inline-block;
-    width: 90%;
     background-color: lightgreen;
-    margin: auto;
+    margin: 20px;
 }
 
 .article-header {
-
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .article-text {
@@ -50,20 +52,25 @@ body {
 }
 
 .article-author {
-
+    text-align: right;
 }
 
 .sidebar {
     display: inline-block;
     background-color: bisque;
     width: 25%;
+    padding: 20px;
+    font-size: 18px;
 
 }
 
 .sidebar-header {
-
+    font-size: 22px;
+    font-weight: 600;
  }
 
 .footer {
+    text-align: center;
+    color: #3f3f3f;
 
 }

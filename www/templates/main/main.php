@@ -3,7 +3,7 @@
         <main class="content">
             <?php foreach ($articles as $article): ?>
             <div class="article">
-                <h2 class="article-header"><a href="/article/<?= $article->getId() ?>"><?= $article->getName() ?></a></h2>
+                <h2 class="article-header"><a href="/article/<?= $article->getId() ?>" class="article-header"><?= $article->getName() ?></a></h2>
                 <p class="article-text"><?= $article->getText() ?></p>
                 <p class="article-author">by: <?= $article->getAuthor()->getNickname() ?:'<i>unknown</i>' ?></p>
             </div>
