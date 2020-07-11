@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title><?= 'Php Learning' . $header ;?></title>
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 </head>
 <body>
     <header class="header">

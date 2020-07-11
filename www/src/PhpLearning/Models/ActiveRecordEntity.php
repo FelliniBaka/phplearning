@@ -29,6 +29,14 @@ abstract class ActiveRecordEntity
         return preg_replace('~[\_]~','',lcfirst(ucwords($source, '_')));
     }
 
+    protected function camelCaseToUnderscore (string $source): string
+    {
+        foreach (preg_match('~([A-Z]*)~',ucfirst($source)) as $word){
+            $array[] = $word;
+        }
+        return implode("_",$array);
+    }
+
     public static function findAll(): array
     {
         $db = Db::getInstance();
@@ -47,5 +55,10 @@ abstract class ActiveRecordEntity
             static::class
             );
         return $entities ? $entities[0] : null;
+    }
+
+    public function save()
+    {
+
     }
 }

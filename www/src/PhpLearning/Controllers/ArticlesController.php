@@ -40,6 +40,9 @@ class ArticlesController
             return;
         }
 
+        $article->setName('New article name');
+        $article->setText('New article text');
+
         var_dump($article);
     }
 }
