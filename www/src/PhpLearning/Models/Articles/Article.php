@@ -4,7 +4,6 @@ namespace PhpLearning\Models\Articles;
 
 use PhpLearning\Models\ActiveRecordEntity;
 use \PhpLearning\Models\Users\User;
-use PhpLearning\Services\Db;
 
 class Article extends ActiveRecordEntity
 {
